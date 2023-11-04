@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/setting"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginRight="10dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/notification"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="70dp"/>
+
+    <ImageView
+        android:id="@+id/limits_home"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/firstpage" />
+
+    <ImageView
+        android:id="@+id/savings"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/firstpage" />
+    <ImageView
+        android:id="@+id/history_home"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/firstpage" />
+    <ImageView
+        android:id="@+id/calendar_home"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/firstpage" />
+    <ImageView
+        android:id="@+id/bills_home"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/firstpage" />
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/firstpage" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="125dp"
+        android:src="@drawable/set" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="125dp"
+        android:src="@drawable/set1" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="205dp"
+        android:src="@drawable/abc" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="205dp"
+        android:src="@drawable/calendar" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="205dp"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="205dp"
+        android:src="@drawable/calendar" />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="285dp"
+        android:src="@drawable/_23" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="285dp"
+        android:src="@drawable/about_us" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HISTORY"
+        android:textColor="@color/white"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVINGS"
+        android:textColor="@color/white"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALENDER"
+        android:textColor="@color/white"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="230dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SET LIMITS"
+        android:textColor="@color/white"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="230dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BILLS"
+        android:textColor="@color/white"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="320dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textColor="@color/white"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="320dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/help"
+        android:layout_marginLeft="350dp"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/profile_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/profile"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/rating_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/rating"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="130dp"/>
+
+    <ImageView
+        android:id="@+id/share_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/share"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="250dp"/>
+
+</RelativeLayout>

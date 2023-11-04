@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="20dp"
+    tools:context=".SetLimits">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/addIncome"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="650dp"
+        android:text="Add Income"
+        android:textColor="@color/white" />
+
+    <TextView
+            android:id="@+id/addExpense"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:background="@color/green"
+            android:layout_marginTop="650dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:text="Add Expense"
+            android:textColor="@color/white" />
+</RelativeLayout>

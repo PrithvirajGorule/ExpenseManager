@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".History">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mo"
+        android:layout_marginTop="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Expense"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="20dp"
+        android:textStyle="normal"/>
+    <EditText
+        android:id="@+id/editTextExpenseLimit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/white"
+        android:hint="."
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="155dp"
+        android:textSize="25dp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Save"/>
+
+</LinearLayout>
